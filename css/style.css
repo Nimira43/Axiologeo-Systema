@@ -41,6 +41,53 @@ header {
     position: relative;
 }
 
+.banner {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    z-index: 4;
+}
+
+.banner h1 {
+    font-family: 'Fredericka the Great', serif;
+    color: var(--orange-col-1);
+    font-size: 4.2rem;
+    text-shadow: 0.15rem 0.15rem 0.1rem var(--yellow-col-1);
+    letter-spacing: 0.1rem;
+}
+
+.banner h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--yellow-col-1);
+    margin: 0 0 1.5rem 0;
+}
+
+.banner button {
+    width: 12rem;
+    height: 4rem; 
+    background-color: var(--orange-col-1);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 1.4rem;
+    box-shadow: 0.15rem 0.15rem 0.1rem var(--yellow-col-1);
+    cursor: pointer;
+    margin-left: 5.5rem;
+    transition: all 0.3s; 
+}
+
+.banner button:hover {
+    opacity: 0.8;
+}
+
+.banner button:active {
+    transform: translate(0.2rem);
+    box-shadow: none;
+}
+
 .backgrounds div {
     position: absolute;
 }
