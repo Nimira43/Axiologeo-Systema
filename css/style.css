@@ -14,11 +14,13 @@ html {
 }
 
 :root {
-    --light-col: #f4e9c7;
+    --light-col: #faecc1;
     --dark-col: #111;
     --black-col: #000;
     --orange-col-1: orangered;
     --orange-col-2: darkorange;
+    --yellow-col-1: darkgoldenrod;
+    --yellow-col-2: goldenrod;
     --light-grey: #eee;
     --medium-grey: #ccc;
     --alt-grey: #888;
@@ -64,13 +66,13 @@ header {
     height: 100%;
     background: linear-gradient(
         transparent 60%,
-        var(--orange-col-2),
-        var(--orange-col-1));
+        var(--yellow-col-2),
+        var(--yellow-col-1));
     top: -40%;
     right: -10%;
     transform: rotateZ(-15deg) skewX(30deg);
     border-radius: 0 0 0 5rem;
-    box-shadow: 7rem 4rem 6rem rgba(0, 0, 0, 0.9);
+    box-shadow: 3.5rem 2rem 9rem rgba(0, 0, 0, 0.9);
 }
 
 .bg-2 {
@@ -86,5 +88,5 @@ header {
     border-radius: 0 0 0 5rem;
     z-index: 2;
     opacity: 0.4;
-    
+    box-shadow: inset 1rem -1rem 2rem rgba(0, 0, 0, 0.9);
 }
