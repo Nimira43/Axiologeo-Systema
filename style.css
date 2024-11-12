@@ -15,9 +15,12 @@ html {
 
 :root {
   --light: #fffaf0;
-  --dark: #111;
-  --grey-dk: #333;
+  --dark: #000;
+  --grey-xdk: #111;
+  --grey-dk: #222;
+  --grey-md: #333;
   --grey-lg: #ccc;
+  --grey-xlg: #eee;
 }
 
 .container {
@@ -37,5 +40,14 @@ header {
 }
 
 .bg-main {
-  
+  width: 150%;
+  height: 150%;
+  background: linear-gradient(
+    to left,
+    var(--dark),
+    var(--grey-xdk),
+    var(--grey-dk));
+    top: -95%;
+    left: -10%;
+    transform: rotateZ(-15deg) skewX(30deg);
 }
