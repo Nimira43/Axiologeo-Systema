@@ -157,6 +157,16 @@ header {
   }
 }
 @media (max-width: 1024px) {
+  .banner {
+    top: 16%;
+    left: 18%;
+  }
+  .banner h1 {
+    font-size: 9rem;
+  }
+  .banner h3 {
+    font-size: 2rem;
+  }
   .bg-main {
     left: -25%;
   }
@@ -183,6 +193,9 @@ header {
 @media (max-width: 430px) {
   .html {
     font-size: 45%;
+  }
+  .banner {
+    left: 8%;
   }
   .bg-main {
     top: -75%;
