@@ -72,6 +72,19 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: var(--light);
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.banner button:hover {
+  color: var(--grey-xdk);
+  border: 2px solid var(--light);
+  background: var(--light);
+}
+
+.banner button:active {
+  transform: scale(0.95);
 }
 
 .backgrounds div {
