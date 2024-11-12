@@ -21,6 +21,9 @@ html {
   --grey-md: #333;
   --grey-lg: #ccc;
   --grey-xlg: #eee;
+  --orange-dk: #b13e14;
+  --orange-md: #ff4500;
+  --orange-lg: #f7591f;
 }
 
 .container {
@@ -50,7 +53,36 @@ header {
     var(--grey-dk));
     top: -95%;
     left: -10%;
-    transform: rotateZ(-15deg) skewX(30deg);
-    border-radius: 0 0 0 10rem;
-    opacity: 0.9;
+  transform: rotateZ(-15deg) skewX(30deg);
+  border-radius: 0 0 0 10rem;
+  opacity: 0.99;
+  z-index: 1;
+}
+
+.bg-1 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    transparent 60%,
+    var(--orange-lg),
+    var(--orange-md));
+  top: -40%;
+  right: -10%;
+  transform: rotateZ(-15deg) skewX(30deg);
+  border-radius: 0 0 0 5rem;
+}
+
+.bg-2 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    transparent 70%,
+    var(--orange-dk),    
+    var(--orange-md));
+  top: -60%;
+  right: 10%;
+  transform: rotateZ(-15deg) skewX(30deg);
+  border-radius: 0 0 0 5rem;
+  z-index: 2;
+  opacity: 0.7;
 }
