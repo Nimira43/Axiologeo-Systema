@@ -33,9 +33,6 @@ html {
   overflow: hidden;
 }
 
-
-
-/* Temp Styles */
 .navbar {
   position: fixed;
   top: 0;
@@ -52,10 +49,10 @@ html {
 .logo span {
   display: flex;
   flex-direction: column;  
-  font-family: 'Amatic SC', sans-serif;
+  font-family: 'Loved by the King', sans-serif;
   font-size: 3rem;
   margin-bottom: 1rem;  /* might remove */
-  font-weight: bold;
+  font-weight: light;
   color: var(--light)
 }
 
@@ -137,13 +134,9 @@ header {
 .bg-main {
   width: 150%;
   height: 150%;
-  background: linear-gradient(
-    to left,
-    var(--black),
-    var(--dark),
-    var(--grey-dark));
-    top: -95%;
-    left: -10%;
+  background: var(--dark);
+  top: -95%;
+  left: -10%;
   transform: rotateZ(-15deg) skewX(30deg);
   border-radius: 0 0 0 10rem;
   opacity: 0.99;
