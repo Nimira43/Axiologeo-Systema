@@ -33,5 +33,14 @@ menuIcon.addEventListener('click', () => {
 })
 
 navItems.forEach((navItem) => {
-
+  navItem.addEventListener('click', () => {
+    if (navItem.classList.contains('show')) {
+      navItem.classList.remove('show')
+    } else {
+      navItems.forEach((item) => {
+        item.classList.remove('show')
+      })
+      navItem.classList.add('show')
+    }
+  })
 })
