@@ -222,6 +222,23 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
 } 
 
+.dropdown-service i {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  font-size: 2.5rem;
+  color: var(--main-light);
+  transition: transform 0.3s;
+}
+
+.dropdown-service:hover i {
+  transform: scale(1.1);
+}
+
 .dropdown-2 {
   width: 90rem;
   height: 37rem;
