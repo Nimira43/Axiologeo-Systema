@@ -358,6 +358,12 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
 }
 
+.contact-options i {
+  width: 4rem;
+  font-size: 2rem;
+  color: var(--main-light);
+}
+
 .dropdown-5 {
   width: 30rem;
   height: 32rem;
