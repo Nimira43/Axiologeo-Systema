@@ -353,6 +353,11 @@ body::-webkit-scrollbar-track {
   padding: 1rem 2rem 2rem 2rem;
 }
 
+.contact-options div {
+  margin: 1.4rem 0;
+  cursor: pointer;
+}
+
 .dropdown-5 {
   width: 30rem;
   height: 32rem;
