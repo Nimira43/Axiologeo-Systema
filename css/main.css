@@ -83,6 +83,10 @@ body::-webkit-scrollbar-track {
   color: var(--support);
 }
 
+.multi-page-nav .logo span {
+  color: var(--support);
+}
+
 .nav-items {
   width: 50%;
   display: flex;
@@ -93,13 +97,6 @@ body::-webkit-scrollbar-track {
 .nav-item {
   list-style: none;
   position: relative;
-}
-
-.nav-link {
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: var(--light);
-  letter-spacing: 0.1rem;
 }
 
 .nav-item:not(:last-child)::after {
@@ -124,6 +121,22 @@ body::-webkit-scrollbar-track {
 .sticky .nav-item::after {
   top: 6rem;
 }
+
+.nav-link {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--light);
+  letter-spacing: 0.1rem;
+}
+
+.sticky .nav-link {
+  color: green;
+}
+
+.multi-page-nav .nav-link {
+  color: green;
+}
+
 .dropdown {
   position: absolute;
   top: 4.9rem;
