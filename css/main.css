@@ -58,6 +58,12 @@ body::-webkit-scrollbar-track {
   transition: all 0.3s;
 }
 
+.navbar.sticky {
+  height: 8rem;
+  background-color: var(--grey-light-extra);
+  box-shadow: 0 1rem 10rem rgba(255, 68, 0, 0.6);
+}
+
 .logo {
   display: flex;
   flex-direction: column;
@@ -69,6 +75,10 @@ body::-webkit-scrollbar-track {
   margin-bottom: 1rem;  /* might remove */
   font-weight: light;
   color: var(--light)
+}
+
+.sticky .logo span {
+  color: var(--support);
 }
 
 header {
