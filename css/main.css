@@ -191,6 +191,23 @@ body::-webkit-scrollbar-track {
   cursor: pointer
 }
 
+.courses-list-item i {
+  font-size: 2rem;
+  width: 4rem;
+  color: var(--main-light);
+  transition: color 0.3s;
+}
+
+.courses-list-item span {
+  font-size: 1.8rem;
+  color: var(--light);
+  transition: color 0.3s;
+}
+
+.courses-list-item:hover span {
+  color: var(--main-light);
+}
+
 .dropdown-2 {
   width: 90rem;
   height: 37rem;
