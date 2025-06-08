@@ -141,7 +141,7 @@ body::-webkit-scrollbar-track {
   top: 4.9rem;
   background-color: var(--dark);
   border-radius: 1rem;
-  border: 0.3rem solid var(--main-light);
+  border: 0.5rem solid var(--main-light);
   padding: 2rem;
   opacity: 0; 
   visibility: hidden;
@@ -283,6 +283,37 @@ body::-webkit-scrollbar-track {
   height: 37rem;
   left: -27rem;
   display: flex;
+}
+
+.ai-item {
+  width: 100%;
+  margin: 0 0.5rem;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.ai-item i {
+  font-size: 6rem;
+  color: var(--main-light) 
+}
+
+.ai-item h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 3.5rem;
+  margin-right: 0.7rem;
+  color: var(--light)
+}
+
+.ai-item p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--main-light)
 }
 
 .dropdown-3 {
