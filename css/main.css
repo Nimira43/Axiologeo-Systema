@@ -239,6 +239,11 @@ body::-webkit-scrollbar-track {
   transform: scale(1.1);
 }
 
+.dropdown-service-item {
+  display: flex;
+  flex-direction: column;
+}
+
 .dropdown-2 {
   width: 90rem;
   height: 37rem;
