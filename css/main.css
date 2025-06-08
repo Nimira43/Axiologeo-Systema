@@ -102,6 +102,31 @@ body::-webkit-scrollbar-track {
   letter-spacing: 0.1rem;
 }
 
+.dropdown {
+  position: absolute;
+  top: 4.9rem;
+  background-color: var(--dark);
+  border-radius: 0.3rem;  
+}
+
+.dropdown-1 {
+  left: -24rem;
+  width: 96rem;
+  height: 60rem;
+  display: flex;
+}
+
+.dropdown-1-left {
+  width: 30%;
+  padding-right: 4rem;
+}
+
+.dropdown-1-right {
+  width: 70%;
+  padding-left: 2rem;
+}
+
+
 header {
   width: 100%;
   height: 100vh;
