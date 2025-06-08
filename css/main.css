@@ -215,6 +215,13 @@ body::-webkit-scrollbar-track {
   flex-wrap: wrap;
 }
 
+.dropdown-service {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3.5rem;
+  cursor: pointer;
+} 
+
 .dropdown-2 {
   width: 90rem;
   height: 37rem;
