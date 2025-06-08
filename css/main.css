@@ -126,6 +126,12 @@ body::-webkit-scrollbar-track {
   padding-left: 2rem;
 }
 
+.dropdown-2 {
+  width: 90rem;
+  height: 37rem;
+  left: -27rem;
+  display: flex;
+}
 
 header {
   width: 100%;
