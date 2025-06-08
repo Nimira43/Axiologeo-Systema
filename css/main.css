@@ -95,6 +95,12 @@ body::-webkit-scrollbar-track {
   position: relative;
 }
 
+.nav-link {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--light);
+  letter-spacing: 0.1rem;
+}
 
 header {
   width: 100%;
