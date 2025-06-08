@@ -40,7 +40,7 @@ body::-webkit-scrollbar-track {
 .container {
   width: 100%;
   height: 100%;
-  background-color: var(--light);
+  background-color: var(--grey-light);
   overflow: hidden;
 }
 
@@ -140,7 +140,9 @@ body::-webkit-scrollbar-track {
   position: absolute;
   top: 4.9rem;
   background-color: var(--dark);
-  border-radius: 0.3rem;
+  border-radius: 1rem;
+  border: 0.3rem solid var(--main-light);
+  padding: 2rem;
   opacity: 0; 
   visibility: hidden;
   transition: all 0.3s; 
@@ -172,8 +174,24 @@ body::-webkit-scrollbar-track {
   padding-left: 2rem;
 }
 
+.dropdown-1-left h3,
+.dropdown-1-right h3 {
+  font-size: 1.8rem;
+  color: var(--light);
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 0.1rem dotted var(--main-light);
+}
+
+.courses-list-item {
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer
+}
+
 .dropdown-2 {
-  /* display: none; */
   width: 90rem;
   height: 37rem;
   left: -27rem;
@@ -181,7 +199,6 @@ body::-webkit-scrollbar-track {
 }
 
 .dropdown-3 {
-  /* display: none; */
   width: 40rem;
   height: 47rem;
   left: 50%;
@@ -190,7 +207,6 @@ body::-webkit-scrollbar-track {
 }
 
 .dropdown-4 {
-  /* display: none; */
   width: 28rem;
   height: 33rem;
   left: 50%;
@@ -199,7 +215,6 @@ body::-webkit-scrollbar-track {
 }
 
 .dropdown-5 {
-  /* display: none; */
   width: 30rem;
   height: 32rem;
   left: 50%;
@@ -237,7 +252,7 @@ header {
   width: 15rem;
   height: 5rem;
   background: transparent;
-  border: 2px solid var(--light);
+  border: 0.1rem solid var(--light);
   border-radius: 0.5rem;
   font-size: 1.6rem;
   font-weight: 500;
