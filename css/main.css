@@ -133,6 +133,24 @@ body::-webkit-scrollbar-track {
   display: flex;
 }
 
+.dropdown-3 {
+  width: 40rem;
+  height: 47rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.dropdown-4 {
+  width: 28rem;
+  height: 33rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+
+
 header {
   width: 100%;
   height: 100vh;
