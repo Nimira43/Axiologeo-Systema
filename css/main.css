@@ -94,6 +94,7 @@ body::-webkit-scrollbar-track {
 }
 
 .nav-item {
+  margin: 1rem;
   list-style: none;
   position: relative;
 }
