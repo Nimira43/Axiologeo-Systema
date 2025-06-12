@@ -429,6 +429,7 @@ body::-webkit-scrollbar-track {
   align-items: center;
   border-radius: 0.3rem;
   font-size: 2rem;
+  font-weight: 400;
   letter-spacing: 0.1rem;
   color: var(--dark);
   text-transform: uppercase;
@@ -528,7 +529,17 @@ header {
 @media (max-width: 1600px) {
   html {
     font-size: 60%;
-  } 
+  }
+  .navbar {
+    padding: 0 10rem;
+  }
+  .nav-items {
+    width: 55%;
+  }
+  .dropdown { 
+    top: 4.5rem;
+  }
+  
 }
 @media (max-width: 1440px) {
   html {
