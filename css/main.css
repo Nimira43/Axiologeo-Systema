@@ -419,6 +419,12 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
 }
 
+.nav-btn {
+  width: 13rem;
+  height: 5rem;
+  background-color: var(--light);
+}
+
 
 
 header {
