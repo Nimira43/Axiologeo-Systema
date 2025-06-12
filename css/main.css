@@ -87,6 +87,7 @@ body::-webkit-scrollbar-track {
 }
 
 .nav-items {
+  position: relative;
   width: 50%;
   display: flex;
   justify-content: space-evenly;
@@ -423,6 +424,14 @@ body::-webkit-scrollbar-track {
   width: 13rem;
   height: 5rem;
   background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: var(--dark);
+  text-transform: uppercase;
 }
 
 
