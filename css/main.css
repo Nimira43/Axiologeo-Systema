@@ -585,6 +585,36 @@ header {
   margin-bottom: 2rem;
 }
 
+.service h3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.services p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.services-bg-1 {
+  width: 50%;
+  height: 100%;
+  background: var(--main-dark);
+  top: -40%;
+  right: -10%;
+  transform: rotateZ(-15deg) skewX(30deg);
+  border-radius: 0 0 0 5rem;
+}
+
+.services-bg-2 {
+  width: 50%;
+  height: 100%;
+  background: var(--main-dark);
+  top: -60%;
+  right: 10%;
+  transform: rotateZ(-15deg) skewX(30deg);
+  border-radius: 0 0 0 5rem;
+  z-index: 2;
+}
 
 @media (max-width: 1600px) {
   html {
