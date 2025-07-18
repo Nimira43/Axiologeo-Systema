@@ -596,24 +596,24 @@ header {
 }
 
 .services-bg-1 {
-  width: 50%;
-  height: 100%;
+  width: 80rem;
+  height: 80rem;
   background: var(--main-dark);
-  top: -40%;
-  right: -10%;
-  transform: rotateZ(-15deg) skewX(30deg);
-  border-radius: 0 0 0 5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 10%;
 }
 
 .services-bg-2 {
-  width: 50%;
-  height: 100%;
-  background: var(--main-dark);
-  top: -60%;
-  right: 10%;
-  transform: rotateZ(-15deg) skewX(30deg);
-  border-radius: 0 0 0 5rem;
-  z-index: 2;
+  width: 08rem;
+  height: 08rem;
+  background: var(--main);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 12%;
+  transform: rotateZ(-10deg);
 }
 
 @media (max-width: 1600px) {
