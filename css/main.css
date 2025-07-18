@@ -548,6 +548,12 @@ header {
   z-index: 1; 
 }
 
+.services-wrapper h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 8rem;
+}
 
 
 @media (max-width: 1600px) {
