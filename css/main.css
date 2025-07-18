@@ -555,6 +555,12 @@ header {
   margin-bottom: 8rem;
 }
 
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 @media (max-width: 1600px) {
   html {
