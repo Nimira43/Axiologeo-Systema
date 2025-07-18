@@ -629,13 +629,23 @@ header {
   .dropdown { 
     top: 4.5rem;
   }
+  .services-wrapper {
+    width: 70%;
+  }
   
 }
 @media (max-width: 1440px) {
   html {
     font-size: 58%;
   }
+  .nav-items {
+    width: 60%;
+  }
+  .services-wrapper {
+    width: 75%;
+  }
 }
+
 @media (max-width: 1366px) {
   html {
     font-size: 58%;
